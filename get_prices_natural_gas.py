@@ -27,7 +27,7 @@ def get_list_of_data(duration_type = "annually"):
     # get the EIA API key 
     #Register at https://www.eia.gov/opendata/register.php
     
-    API_KEY = 'dc4ea9dc4b54fec7026304456ca1508f'
+    API_KEY = 'YOUR_API_KEY'
     
     # URL for request to the EIA API 
     B_URL = "https://api.eia.gov/series/?api_key={}&series_id=".format(
